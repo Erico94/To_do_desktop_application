@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToDoApplication"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        MinWidth="800"
+        MinHeight="450"
+        Title="To do app">
     <Grid>
+        <Frame Name="MainWindowFrame"
+               NavigationUIVisibility="Hidden">
+            
+        </Frame>
         
     </Grid>
 </Window>
