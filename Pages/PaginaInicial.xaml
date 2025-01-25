@@ -1,0 +1,31 @@
+﻿<Page x:Class="ToDoApplication.Pages.PaginaInicial"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ToDoApplication.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PaginaInicial">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="8*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <!--Aqui vai um menu de opções-->
+        </Grid>
+        <Grid Grid.Column="1" Background="#FFFDF0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="4*"/>
+            </Grid.RowDefinitions>
+            <TextBlock TextAlignment="Center" FontSize="23" FontWeight="Bold">
+                <Image Width="10" Margin="0,0,0,10" Source="../images/icons8-aspas-esquerdas-50.png"></Image>
+                A organização de hoje é a tranquilidade de amanhã.
+                <Image Width="10" Margin="0,0,0,10" Source="../images/icons8-aspas-direitas-50.png" ></Image>
+            </TextBlock>
+        </Grid>
+    </Grid>
+</Page>
